@@ -32,6 +32,11 @@ $('.head-nav li a').click(function() {
   $("body header").toggleClass('active');
 });
 
+$('.more-read').click(function(){
+    $('.hiden-block').css('height','auto');
+    $(this).css('display','none');
+})
+
 $(window).scroll(function() {
 	var scrolled = $(window).scrollTop();
 	if ( scrolled > 100) {

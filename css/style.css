@@ -387,15 +387,16 @@ height: auto;
     margin-left: auto;
 }
 
-@media screen and (max-width: 1440px) {
-  
+.hiden-block{
+    height:310px;
+    overflow: hidden;
+    transition: .3s; 
 }
 
-@media screen and (max-width: 1200px) {
-
-    
-    
+.more-read{
+    cursor: pointer;
 }
+
 
 @media screen and (max-width: 992px) {
    section {
